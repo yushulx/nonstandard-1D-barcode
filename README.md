@@ -12,7 +12,7 @@ pip install dbr
 
 ## Usage
 
-Get a [free trial license](https://www.dynamsoft.com/CustomerPortal/Portal/Triallicense.aspx) and then update following code:
+Get a [free trial license](https://www.dynamsoft.com/CustomerPortal/Portal/Triallicense.aspx) and then update the following code:
 
 ```python
 license_key = "LICENSE-KEY" 
@@ -26,7 +26,7 @@ Configure the template JSON file. Set the barcode format and start/stop characte
 "TailModuleRatio": "131111313"
 ```
 
-According to the [character table](https://en.wikipedia.org/wiki/File:Free_3_of_9_(Code_39_barcode).svg), "`131113131`" represents "`+`" and "`131111313`" represents "`-`".
+According to the [Code39 character table](https://en.wikipedia.org/wiki/File:Free_3_of_9_(Code_39_barcode).svg), "`131113131`" represents "`+`" and "`131111313`" represents "`-`".
 
 Once the template file is correctly configured, you can read the nonstandard 1D barcode as follows:
 
