@@ -56,3 +56,6 @@ except BarcodeReaderError as bre:
     print(bre)
 
 ```
+
+## Blog
+[How to Read Nonstandard 1D Barcode with Dynamsoft Barcode SDK](https://www.dynamsoft.com/codepool/read-nonstandard-1d-barcode-barcode-sdk.html)
